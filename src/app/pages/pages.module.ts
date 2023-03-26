@@ -11,7 +11,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { PagesComponent } from './pages.component';
 import { ComponentsModule } from '../components/components.module';
-import { HighchartsChartModule } from 'highcharts-angular';
+
 
 
 
@@ -35,7 +35,6 @@ import { HighchartsChartModule } from 'highcharts-angular';
     AppRoutingModule,
     FormsModule,
     ComponentsModule,
-    HighchartsChartModule
   ]
 })
 export class PagesModule { }
