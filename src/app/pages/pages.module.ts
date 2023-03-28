@@ -12,6 +12,8 @@ import { ProgressComponent } from './progress/progress.component';
 import { PagesComponent } from './pages.component';
 import { ComponentsModule } from '../components/components.module';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -23,7 +25,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromisesComponent,
+    RxjsComponent
   ],
   exports:[
     DashboardComponent,
